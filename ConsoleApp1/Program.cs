@@ -18,7 +18,6 @@ Console.WriteLine($"Hello {s}! Your decimal number is {d:C5}. Your parsed s2 to 
 
 Console.WriteLine("Skriv in 3,67");
 
-string tempstring = Console.ReadLine();
-decimal decnr = decimal.Parse(tempstring);
+decimal decnr = decimal.Parse(Console.ReadLine());
 
 Console.WriteLine(decnr * 10);
